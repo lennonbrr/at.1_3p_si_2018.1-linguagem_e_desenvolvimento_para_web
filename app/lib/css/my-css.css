@@ -1,0 +1,35 @@
+main,footer,header{
+  padding-left: 200px;
+}
+@media only screen and (max-width: 992px){
+  main,footer,header{
+    padding-left: 0;
+  }
+
+}
+
+.deep-purple label,.deep-purple .input-field label{
+  color: #fff;
+}
+
+.deep-purple [type="radio"]:not(:checked) + label:before, [type="radio"]:not(:checked) + label:after{
+  border-color: #fff;
+}
+
+.card input{
+  font-size: 2em !important;
+}
+
+
+.hader{
+  color: #444;
+}
+
+/* Especiais do index */
+.index{
+  padding-left: 0;
+}
+
+.space-1{
+  padding: 2em 0;
+}
